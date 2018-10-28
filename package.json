@@ -1,0 +1,19 @@
+{
+  "name": "blockchain-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanBaron/blockchanin-js.git"
+  },
+  "author": "Ryan Baron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanBaron/blockchanin-js/issues"
+  },
+  "homepage": "https://github.com/RyanBaron/blockchanin-js#readme"
+}
