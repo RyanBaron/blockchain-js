@@ -1,10 +1,14 @@
 const sha256 = require('sha256');
 
+const currentNodeUrl = process.argv[3]; // Get the url of the current node, passed as an argument in the start script.
+
 class Blockchain {
 
   constructor() {
     this.chain = [];
     this.pendingTransactions = [];
+    this.currentNodeUrl = currentNodeUrl; // The current node url.
+    this.networkNodes = []; // All other node urls in the blockchain neteork.
 
     // Generate the genesis block (the first block on the blockchain).
     this.createNewBlock( 2018, 'RyanBaron', 'GenesisBlock' );
