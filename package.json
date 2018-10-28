@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/RyanBaron/blockchanin-js/issues"
   },
-  "homepage": "https://github.com/RyanBaron/blockchanin-js#readme"
+  "homepage": "https://github.com/RyanBaron/blockchanin-js#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "sha256": "^0.2.0"
+  }
 }
